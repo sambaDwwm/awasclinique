@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200&family=Raleway:wght@100;200;300&display=swap');
+:root {
+    --color_basePrimary: #2d3436;
+    --color_font: #f1f2f6;
+    --font_base:
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--color_basePrimary);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    padding: 20px 0;
+    width: 120px;
+}
+
+nav {
+    margin: auto 0;
+    width: 50%;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav>ul>li {
+    margin: 0 20px;
+}
+
+nav>ul>li>a {
+    font-family: 'rotobo', sans-serif;
+    color: var(--color_font);
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}
+
+nav>ul>li>a:hover {
+    border-bottom: 1px solid;
+}
